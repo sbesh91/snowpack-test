@@ -11,7 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "htm": "^2.2.1",
-    "preact": "^10.2.1"
+    "preact": "^10.2.1",
+    "rxjs": "^6.5.4"
   },
   "devDependencies": {
     "serve": "^11.3.0",
