@@ -1,3 +1,4 @@
 node_modules
+dist
 web_modules
 *-lock.json

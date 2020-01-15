@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run pack && serve",
-    "pack": "snowpack"
+    "pack": "snowpack",
+    "build": "snowpack --optimize --clean --include='src/**/*.js' --dest=dist"
   },
   "author": "",
   "license": "ISC",
