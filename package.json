@@ -5,17 +5,19 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run pack && serve",
-    "pack": "snowpack"
+    "build": "snowpack --config ./snowpack.prod.js",
+    "pack": "snowpack --config ./snowpack.dev.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "htm": "^2.2.1",
     "preact": "^10.2.1",
-    "rxjs": "^6.5.4"
+    "rxjs": "^6.5.4",
+    "@codemirror/next": "^0.5.0"
   },
   "devDependencies": {
     "serve": "^11.3.0",
-    "snowpack": "^1.0.3"
+    "snowpack": "^1.6.0"
   }
 }
