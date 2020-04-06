@@ -5,8 +5,13 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run pack && serve",
+<<<<<<< HEAD
     "build": "snowpack --config ./snowpack.prod.js",
     "pack": "snowpack --config ./snowpack.dev.js"
+=======
+    "pack": "snowpack",
+    "build": "snowpack --optimize --clean --include='src/**/*.js' --dest=dist"
+>>>>>>> 460e46bba23b7727fa134dd8e523cbf9854e3b86
   },
   "author": "",
   "license": "ISC",
