@@ -12,6 +12,4 @@ configs = {
   }
 };
 
-console.log(configs);
-
 module.exports = configs;

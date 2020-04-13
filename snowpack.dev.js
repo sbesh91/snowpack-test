@@ -7,7 +7,7 @@ const configs = {
     "clean": false,
     "optimize": false,
     "babel": false,
-    "include": "src/**/*.{js,jsx,ts,tsx}",
+    "include": "src/**/*.{js,ts}",
     "exclude": ["**/__tests__/*", "**/*.@(spec|test).@(js|mjs)"],
     "strict": true,
     "sourceMap": true,

@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run pack && serve",
+    "serve": "serve",
+    "start": "npm run pack && npm run serve",
     "build": "snowpack --config ./snowpack.prod.js",
     "pack": "snowpack --config ./snowpack.dev.js"
   },
